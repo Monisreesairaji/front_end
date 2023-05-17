@@ -1,0 +1,591 @@
+@media screen and (max-width: 768px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    body h1{
+        display: block;
+    }
+    body h2{
+        color: black;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    body span{
+        color: maroon;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    body p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+    }
+.banner .banner-container {
+        background-image: url(./assests/images/banner.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: center;
+        width: 100%;
+        height: 80%;
+        margin-top: 0px;
+        padding: auto;
+        padding-top: 105px;
+         padding-left: 35px;
+        /* position: relative; */
+    }
+.banner .banner-container h1 {
+        max-width: 282px;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+    }
+.banner .banner-container .protect{
+        width: 100%;
+        max-width: 286px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+    }
+ .banner-container::before {
+        border-top: 8px solid #8D2528;
+        border-left: 8px solid #8D2528;
+        border-right: 8px solid #8D2528;
+        content: "";
+        position: absolute;
+        top: 60px;
+        width: 80%;
+        height: 90px;
+        left: 20px;
+    }
+.banner-container::after {
+        border-bottom: 8px solid #AE9931;
+        border-left: 8px solid #AE9931;
+        border-right: 8px solid #AE9931;
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        width: 80%;
+        height: 90px;
+        left: 20px;
+        top: 310px;
+    } 
+    .banner .banner-container .structural-warranties{
+        color: black;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+    }
+    .banner .banner-container .new-home-builders{
+        color: #AE9931;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+    }
+    .quote{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold; 
+    }
+    .overview .overview-content{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .overview .overview-content span{
+        text-align: center;
+        margin: auto;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+    .overview .overview-content h2{
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        width: 100%;
+    }
+    .overview .overview-content p{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        text-align: left;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .approach-image img{
+        width: 300px;
+        /* max-width: 450px; */
+        height: 100%;
+       padding: 10px;
+    }
+    .pricing-appraoch{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    }
+    .approach-content{
+        padding: 0%;
+    }
+    .approach-context{
+        padding-left: 10px;
+    }
+    .approach-content ul li {
+        line-height: 30px;
+        margin-left: 0px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    .flexbox .approach-content .approach-context ul li{
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* margin: 0px; */
+        margin-top: 150px;
+        padding: 2%;
+    }
+    .flexbox{
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .approach-context .are-we-different{
+        margin-left: 0px;
+    }
+    .approach-context h2{
+        margin-left: 0px;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .approach-context ul {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .approach-context ul li span {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        color: black;
+        font-weight: normal;
+    }
+    .cover-content{
+        text-align: center;
+        justify-content: center;
+        /* margin-top: 50px; */
+    }
+    .cover-content h2{
+        max-width: 360px;
+        margin: auto;
+    }
+    .cover-content p{
+        max-width: 300px;
+        margin: auto;
+        width: 100%;
+    }
+    .warranties-cover{
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+    }
+    .warranties-cover p{
+        max-width: 360px;
+        margin: auto;
+    }
+    .flex-box{
+        margin: 0px;
+    }
+    .flex-box h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+        padding-top: 15px;
+    }
+    .flex-box p {
+        font-family: 'Merriweather', serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding-bottom: 30px;
+        width: 100%;
+        max-width: 230px;
+        margin: auto;
+    }
+    .cover .warranties-cover .workmanship{
+        margin: 0px;
+    }
+    .cover .warranties-cover .structure{
+        margin: 0px;
+    }
+    .cover .warranties-cover .workmanship img{
+        width: 100%;
+        max-width: 450px;
+    }
+   .cover .warranties-cover .systems img{
+        width: 100%;
+        max-width: 450px;
+        
+    }
+    .cover .warranties-cover .structure img{
+        width: 100%;
+        max-width: 450px;
+    }
+    .coverage-details .coverage-details-content h2{
+        max-width: 380px;
+        margin: auto;
+    }
+    .home-content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+        /* font-size: 20px; */
+        margin-left: 10px;
+    }
+     .home-content .home-context{
+        width: auto;
+        max-width: 100%;
+    }
+    .home-content .home-context .content {
+        display: flex;
+        text-align: left;
+        font-size: 13px;
+    }
+    .home-content .home img{
+        width: auto;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .home-content .home-context .content .year1 .year1li {
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .home-content .home-context .content .year1 .year1li span{
+        width: auto;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .home-content .home-context .content .year2 .year2li {
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .home-content .home-context .content .year2 .year2li span{
+        width: auto;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .home-content .home-context .content .year2 .year2li-2{
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .home-content .home-context .content .year2 .year2li-2 span{
+        width: auto;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .home-content .home-context .content .year2 .year2li-2 p{
+        width: auto;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-style: italic;
+        max-width: 232px;
+    }
+    .home-content .home-context .content h4{
+        width: auto;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .home-content .home-context .content h5{
+        width: auto;
+        text-align: left;
+        font-family: 'Merriweather', serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .home-context-para{
+        display: none;
+    }
+    .explore-plans .explore-plans-content h2{
+        color: white;
+        margin:auto;
+        max-width: 300px;
+    } 
+    .explore-plans .explore-plans-content p{
+        color: white;
+        margin:auto;
+        max-width: 250px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    } 
+    .plan{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 25px;
+        background: rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(204, 204, 204);
+        margin-top: 20px;
+    }
+    .plan .plan-left{
+        width: 100%;
+
+    }
+    .plan .plan-right{
+        width: 100%;
+    }
+    .plan .plan-left .plan-left-top .top-style{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .plan .plan-left .plan-left-top .top-style1{
+        color: white;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .plan .plan-left .plan-left-bottom li{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .plan .plan-right .plan-right-top .top-style{
+        color: white;
+        display: block;
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .plan .plan-right .plan-right-bottom li{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .standard-workmanship .standard-workmanship-content h2{
+        margin-top: 265px;
+        margin-bottom: 30px;
+    }
+        .builder-plan {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+        .builder-plan .flex-box {
+            min-width: 200px;
+        }
+        .standard-workmanship .builder-plan .flex-box h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .standard-workmanship .builder-plan .flex-box h2 p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .standard-workmanship .builder-plan .flex-box h2 span{
+            display: block;
+            font-family: 'Merriweather', serif;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .standard-workmanship .builder-plan .total-protection-plan{
+            color: #8D2528;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .warranty-pricing-content {
+            padding:0px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .warranty-pricing-content p{
+            max-width: 275px;
+            margin: auto;
+            width: 100%;
+        }
+        .warranty-pricing-content .article{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top:30px ;
+            margin-bottom: 40px;
+        }
+        .warranty-pricing .warranty-pricing-content .get-a-quote .get-quote::before {
+            width: 39%;
+            /* margin: 0px; */
+            border-top: 2px solid rgb(141, 37, 40);
+            border-left: 2px solid rgb(141, 37, 40);
+            border-right: 2px solid rgb(141, 37, 40);
+            content: "";
+            position: absolute;
+            height: 10px;
+            /* top: 0px; */
+            right: 98px; 
+        }
+        .warranty-pricing .warranty-pricing-content .get-a-quote{
+            font-size: 14px;
+        }
+        .warranty-pricing .warranty-pricing-content .get-a-quote .get-quote::after {
+            width: 39%;
+            /* margin: 0px; */
+            border-bottom: 2px solid #AE9931;
+            border-left: 2px solid #AE9931;
+            border-right: 2px solid #AE9931;
+            content: "";
+            position: absolute;
+            height: 12px;
+            margin-top: 20px;
+            right: 98px;
+        }
+        .warranty-pricing .builder-secure{
+            padding: 0px;
+        }
+        .warranty-pricing .builder-secure img{
+            width: 300px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .builder-secure .builder-secure-content{
+            margin: 10px;
+            margin-bottom: 40px;
+        }
+        .builder-secure-content h2{
+            width: 100%;
+            max-width: 450px;
+        } 
+        .builder-secure-content p{
+            width: 300px;
+        }
+        .faq .faq-content h3{
+            font-family: 'Merriweather', serif;
+            font-size: 15px;
+            font-weight: normal;
+            max-width: 232px;
+        }
+        .faq .faq-content h3 .plus{ 
+            float: right;
+            font-size: 20px;
+        }
+        .faq .faq-content .question{
+            font-family: 'Merriweather', serif;
+            font-size: 15px;
+            font-weight: normal;
+            /* max-width: 223px; */
+        }
+        .faq .faq-content .article1{
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+            max-width: 300px;
+        }
+        .form {
+            background-color: whitesmoke;
+            padding: 30px;
+        }
+        .form .form-content h2{
+            font-family: 'Merriweather', serif;
+            font-size: 22px;
+            font-weight: normal;
+        }
+        .form .form-content p{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+        }
+        .form .form-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            text-align: left;
+            margin: auto;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .form .form-container .txt{
+             width: 100%;
+             height: 45px;
+        }
+        .form .form-context .submit {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+            max-width: 320px;
+            margin: auto;
+        }
+        .form .form-context a {
+            color: maroon;
+            text-decoration: none;
+            margin: auto;
+            line-height: 60px;
+        }
+        .form .form-context a::before {
+            width: 35%;
+            border-top: 2px solid rgb(141, 37, 40);
+            border-left: 2px solid rgb(141, 37, 40);
+            border-right: 2px solid rgb(141, 37, 40);
+            content: "";
+            position: absolute;
+            height: 10px;
+            margin-top: 10px;
+            left: 30px;
+        }
+        .form .form-context a::after {
+            width: 35%;
+            /* margin: 0px; */
+            border-bottom: 2px solid #AE9931;
+            border-left: 2px solid #AE9931;
+            border-right: 2px solid #AE9931;
+            content: "";
+            position: absolute;
+            height: 12px;
+            margin-top: 35px;
+            left: 30px;
+        }
+        .warranty-leader .warranty-leader-content{
+            padding: 0px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .warranty-leader .warranty-leader-content h2{
+            max-width: 250px;
+            margin: auto;
+        }
+        .warranty-leader .warranty-leader-content p {
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        .warranty-leader .warranty-leader-content a{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+
+
+}
