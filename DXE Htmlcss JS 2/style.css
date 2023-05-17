@@ -1,0 +1,196 @@
+body{
+    background-image: url(./assests/background.jpg);
+    font-family: 'Dancing Script', cursive;
+    background-position:bottom;
+    color: bisque;
+}
+.login {
+    width: 450px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    /* box-shadow: 2px 3px 20px 2px rgba(0,0,0,0.4); */
+    /* margin-top: 50px; */
+    /* margin-left: 450px; */
+    margin: 0 auto;
+}
+input {
+    padding: 8px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.username {
+    margin-top: 50px;
+}
+button {
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(105, 105, 157);
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+h1 {
+    color:coral;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+h1 span{
+    color: rgb(75, 13, 13);
+}
+label {
+    color: whitesmoke;
+    font-size: 30px;
+}
+.container-menu{
+    color: bisque;
+     text-align: right;
+}
+.container-menu span{
+    color: bisque;
+}
+ .container-menu h2{
+    color: rgb(94, 9, 26);
+    font-size: 40px;
+    text-align: center;
+}
+.navbar{
+    display: inline;
+}
+.navbar a{
+    color:rgb(6, 58 ,29,1);
+    padding: 50px;
+}
+a:link{
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    font-size: 30px;    
+}
+.button{
+    font-size: 30px;
+}
+.navbar span{
+    color: bisque;
+}
+.navbar span:hover{
+    color: maroon;
+}
+.box{
+    color: bisque;
+    margin-top: 50px;
+    margin-right: 150px;
+    float: right;
+    font-size: 30px;
+    /* width: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.box img{
+    height: 300px;
+}
+.menu{
+    /* border: 2px solid rgb(214, 145, 145); */
+    background-color:rgb(240, 228, 179);
+    margin: 100px;
+    padding: 20px;
+}
+.menu h3{
+    color: rgb(94, 9, 26);
+    font-size: 40px;
+    text-align: center;
+}
+.menu tr th{
+    color: maroon;
+    font-size: 25px;
+    /* background-color: bisque; */
+}
+table,
+th,
+td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    text-align: center;
+    border-left: none;
+    border-right:none;
+    justify-content: center;
+    width: 100%;
+    color: brown;
+}
+/* tr:nth-child(odd) {
+    background-color: lightgrey;
+} */
+.about{
+    text-align: center;
+}
+.about h3{
+    font-size: 40px;
+    color:rgb(68, 16, 16) ;
+}
+.about span{
+    font-size: 25px;
+    /* color: rgb(68, 16, 16); */
+}
+.emoji{
+    height: 50px;
+    width: 50px;
+}
+.about p{
+    font-size: 20px;
+    color: lightyellow;
+}
+.about h4{
+    font-size: 30px;
+}
+.about ul{
+    max-width: 250px;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.about ul li{
+    text-align: left;
+}
+.contact{
+    text-align: left;
+    padding: 50px;
+    margin: 0 50px 0 50px;
+    color: rgb(68, 16, 16);
+    font-size: 20px;
+    /* text-align: center; */
+}
+.contact h3{
+    text-align: center;
+    font-size: 40px;
+}
+.contact p{
+    color: lightyellow;
+}
+.form{
+    border: 2px solid rgb(58, 53, 53);
+    width: 500px;
+    margin: auto;
+    background-color: rgb(240, 228, 179);
+    padding: 30px;
+}
+.form .text{
+    color: maroon;
+    font-size: 25px;
+}
+
+
+
+
